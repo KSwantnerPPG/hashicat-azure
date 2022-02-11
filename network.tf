@@ -2,7 +2,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "Demovar" {
+resource "azurerm_resource_group" "Demovars" {
   name     = "my-resources"
   location = "West Europe"
 }
